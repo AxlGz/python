@@ -20,7 +20,7 @@
     *tuplas: Tambien son un grupo de datos igual que una lista con la diferencia que una tupla después de creada no se puede modificar
 
 Nota: En Python trabajamos con módulos y ficheros que se usan para importar librerías.
-<br>
+<br><br>
 **Funciones:**
 Las Funciones se definen con def junto a un nombre y unos paréntesis que reciben los parámetros a usar.  Terminas con dos puntos.
 	
