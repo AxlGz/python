@@ -77,7 +77,7 @@ De flotante a entero:
  
     >>> float (4)
     4.0
- De entero/flotante a string:
+De entero/flotante a string:
  
 
     >>> str (4.3)
@@ -86,4 +86,30 @@ De tupla a lista:
 
     >>>list ((4,5,2))
     [4,5,2]
+
+<br>
+
+**Ordenadores Comunes:**
+Longitud de una cadena,lista,tupla,etc.:
+   >>> len("hey :D")
+   6
+
+Tipo de dato:
+   >>> type (4)
+   < class int >
+
+Aplicar una conversion a un conjunto como una lista:
+
+   >>>map(str,[1,2,3,4])
+   <map object at 0x7f5573fbcb00>
+
+   *Si lo queremos mostrar en forma de lista tiene que ser así:*
+   >>>print(list(map(str,[1,2,3,4])))
+   ['1','2','3','4']
+
+Redondear un Floar con x número de decimales:
+
+   >>>round(6.12234234253, 2)
+   6.12
+
 
