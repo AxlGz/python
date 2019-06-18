@@ -107,9 +107,84 @@ Aplicar una conversion a un conjunto como una lista:
    >>>print(list(map(str,[1,2,3,4])))
    ['1','2','3','4']
 
-Redondear un Floar con x número de decimales:
+Redondear un Float con x número de decimales:
 
    >>>round(6.12234234253, 2)
    6.12
 
+Generar un rango en una lista:
+   >>>range(5)
+   [0,1,2,3,4]
 
+Sumar un conjunto:
+   >>>sum([1,2,4])
+   7
+
+Organizar un conjunto:
+   >>> sorted([5,2,1])
+
+Conocer los comandos que le puedes aplicar a x tipo de datos:
+   >>>Li = [1,2,8,5]
+   >>>dir(Li)
+   >>>[ 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+Información sobre una función o librería:
+   >>help(sorted)
+
+<br>
+
+**Clases:**
+
+Clases es uno de los conceptos con más definiciones en la programación, pero en resumen sólo son la representación de un objeto. Para definir la clase usas_ class_ y el nombre. En caso de tener parámetros los pones entre paréntesis.
+
+Para crear un constructor haces una función dentro de la clase con el nombre init y de parámetros self (significa su clase misma), nombre_r y edad_r:
+
+<br>
+
+**Métodos especiales:**
+
+cmp(self,otro)
+Método llamado cuando utilizas los operadores de comparación para comprobar si tu objeto es menor, mayor o igual al objeto pasado como parámetro.
+
+len(self)
+Método llamado para comprobar la longitud del objeto. Lo usas, por ejemplo, cuando llamas la función len(obj) sobre nuestro código. Como es de suponer el método te debe devolver la longitud del objeto.
+
+init(self,otro)
+Es un constructor de nuestra clase, es decir, es un “método especial” que se llama automáticamente cuando creas un objeto.
+
+<br>
+
+**Condicional if**:
+
+Los condicionales tienen la siguente estructura. Ten en cuenta que lo que contiene los paréntesis es la comparación que debe cumplir para que os elementos se cumplan.
+   
+   if( a > b):
+      elementos
+   elif ( a == b):
+      elementos
+   else:
+      elementos
+
+**Blucle for**:
+El bucle de for lo puedes usar de la siguiente forma: recorres una cadena o lista a la cual va a tomar el elemento en cuestión con la siguiente estructura:
+
+   for i in ___:
+      elementos
+   
+Ejemplo:
+
+   >>>for i in range(5):
+   ...   print(i)
+
+**Bucle while:**
+
+En este caso while tienen una condición que determina hasta cuándo se ejecutará. O sea que dejará de ejecutarse en el momento en el que la condición deje de ser cierta. La estructura de un while es la siguiente:
+
+   while(condición):
+      elementos
+
+Ejemplos:
+   >>>x = 0
+   >>>while x <10:
+   ...   print x
+   ... x += 1
