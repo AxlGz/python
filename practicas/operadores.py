@@ -24,7 +24,8 @@
 # **: Exponente
 4**2
 
-
+# asignar un valor:
+a=5
 # Estos  reasignan el valor de una variable:
 a+=5 #le agrega 5 más lo que tenía antes la variable.
 a-=5 #le quita 5 a lo que tenía antes la variable.
